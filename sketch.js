@@ -123,7 +123,7 @@ function draw() {
     fill(0, opac_val_2);
     rect(0,0,width,height);
   }
-  fill(255);   
+  fill(255);   a
 
   strokeWeight(0);
   if(assignment == assignment_arr[picked_assignment] && completed_assignment < 5){ // 과제 제출에 성공 && 과제 제출량이 5미만이면 다음 과제를 낸다.
